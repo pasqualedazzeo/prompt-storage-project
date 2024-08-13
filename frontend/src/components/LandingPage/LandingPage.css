@@ -1,0 +1,63 @@
+.landing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-buttons {
+    margin-top: 2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .features, .about {
+    margin-bottom: 3rem;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    flex-basis: calc(33.333% - 1rem);
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .feature-list {
+      flex-direction: column;
+    }
+    
+    .feature-item {
+      flex-basis: 100%;
+    }
+  }
